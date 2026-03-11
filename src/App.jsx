@@ -17,7 +17,9 @@ function App() {
           position={member.position.toUpperCase()}
           name={member.name}
           img={member.img}
-          style={member.id %2 === 0 ? "relative top-10 sm:top-0" : ""}
+          style={`${member.id %2 === 0 ? "relative top-10" : ""}
+            ${member.id === 2 || member.id === 5 ? "sm:top-10" : "sm:top-0"}
+            `}
           />
         ))
         }
