@@ -2,7 +2,7 @@
 
 function MainContainer(props) {
     return(
-        <section className={`flex flex-col relative w-[80%] ${props.style}`} >
+        <section className={`flex flex-col relative w-[80%] mb-8 ${props.style}`} >
             <img src={props.img} alt="photo" loading="lazy" className="max-w-32 sm:max-w-45" />
             <p className="rotate-90 absolute text-xs w-25 left-15 top-9 sm:left-26">{props.position}</p>
             <p className="font-bold text-sm">{props.name}</p>
