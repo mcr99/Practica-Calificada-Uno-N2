@@ -1,4 +1,4 @@
-function PhotosSection() {
+function MainContainer() {
     return(
         <section className=" flex flex-col relative w-[80%]" >
             <img src="./public/photo1.png" alt="photo" loading="lazy" className="" />
@@ -8,4 +8,4 @@ function PhotosSection() {
     );
 }
 
-export default PhotosSection;
+export default MainContainer;
