@@ -1,6 +1,6 @@
 function Header() {
     return(
-        <header className="relative max-w-200">
+        <header className="relative max-w-100 sm:max-w-200">
             <div className="absolute right-1 -top-1 p-3 text-4xl sm:right-20">
                 <p className="">☾</p>
                 <p className="hidden">☼</p>
